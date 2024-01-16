@@ -8,6 +8,8 @@ function App() {
     <div>
       <Clock city={"London"} timeZoneh={"Europe/London"} />
       <Timer startTime={500} />
+      <Timer startTime={900} />
+      <Timer startTime={60} />
     </div>
   );
 }
